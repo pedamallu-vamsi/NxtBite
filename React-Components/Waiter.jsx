@@ -1,6 +1,15 @@
 function WaiterSection() {
   return (
     <>
+      <div className="section-heading">
+        <h1>Waiter Dashboard</h1>
+        <p>
+          smart, table-centric interface that empowers waiters to manage orders, monitor table status, and respond to service 
+          requests instantly. From order confirmations to live item updates and guest assistance alerts, everything is designed 
+          to reduce confusion, minimize back-and-forth, and keep service flowing smoothly — so waiters can focus on hospitality, 
+          not screens.
+        </p>
+      </div>
       <div className="section">
         <div className="image-container">
           <img src="\Images\WaiterTables.jpeg"  alt="Waiter Table List" />
