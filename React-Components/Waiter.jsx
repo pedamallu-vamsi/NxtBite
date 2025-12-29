@@ -1,3 +1,7 @@
+import WaiterTables from "../Images/WaiterTables.jpeg";
+import WaiterNotification from "../Images/WaiterNotification.jpeg";
+import WaiterStatus from "../Images/WaiterStatus.jpeg";
+
 function WaiterSection() {
   return (
     <>
@@ -12,7 +16,7 @@ function WaiterSection() {
       </div>
       <div className="section">
         <div className="image-container">
-          <img src="\Images\WaiterTables.jpeg"  alt="Waiter Table List" />
+          <img src={WaiterTables}  alt="Waiter Table List" />
         </div>
         <div className="content">
           <h2>Smart Table Management</h2>
@@ -28,7 +32,7 @@ function WaiterSection() {
       </div>
       <div className="section reverse">
         <div className="image-container">
-          <img src="\Images\WaiterStatus.jpeg" alt="Order Details" />
+          <img src={WaiterNotification} alt="Order Details" />
         </div>
         <div className="content">
           <h2>Detailed Order Tracking</h2>
@@ -43,7 +47,7 @@ function WaiterSection() {
       </div>
       <div className="section">
         <div className="image-container">
-          <img src="\Images\WaiterNotification.jpeg" alt="Notifications" />
+          <img src= {WaiterStatus} alt="Notifications" />
         </div>
         <div className="content">
           <h2>Instant Notifications</h2>

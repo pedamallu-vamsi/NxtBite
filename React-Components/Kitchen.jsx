@@ -1,3 +1,5 @@
+import KitchenDashboard from "../Images/KitchenDashboard.jpeg";
+
 function KitchenSection() {
   return (
     <>
@@ -11,7 +13,7 @@ function KitchenSection() {
       </div>
       <div className="section reverse">
         <div className="image-container kitchen">
-          <img src="\Images\KitchenDashboard.jpeg" alt="Kitchen Dashboard" />
+          <img src= {KitchenDashboard} alt="Kitchen Dashboard" />
         </div>
 
         <div className="content">
