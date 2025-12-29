@@ -4,6 +4,8 @@ import Waiter from "./Waiter"
 import KitchenSection from "./Kitchen";
 import AdminDashboardSection from "./Admin"
 import ClientSection from "./Client"
+import ContactForm from "./Contact"
+
 function App(){
     return(
         <>
@@ -13,6 +15,7 @@ function App(){
         <Waiter/>
         <KitchenSection/>
         <AdminDashboardSection/>
+        <ContactForm/>
         </>
     );
 }
